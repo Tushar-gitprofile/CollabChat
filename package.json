@@ -1,7 +1,7 @@
 {
-  "name": "chat-app",
+  "name": "collabchat-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for real-time chat app",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
@@ -10,13 +10,16 @@
   },
   "keywords": [
     "mern",
-    "chat-app"
+    "chat-app",
+    "socket.io",
+    "mongodb"
   ],
-  "author": "Piyush Agarwal",
+  "author": "Tushar Dhotre",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
+    "cors": "^2.8.5",
     "dotenv": "^9.0.2",
     "express": "^4.17.1",
     "express-async-handler": "^1.1.4",
